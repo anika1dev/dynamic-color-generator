@@ -1,0 +1,31 @@
+:root{
+  --random-color: #ffffff;
+}
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  overflow: hidden;
+}
+.element{
+  width: 100vw;
+  height: 100vh;
+  background-color: #aaaaaa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transition: background-color 0.8s ease;
+}
+.child{
+  height: 200px;
+  width: 200px;
+  background-color: var(--random-color);
+  border: none;
+  font-size: larger;
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+  margin-top: 24px;
+  transition : background-color 0.8s ease;
+}
