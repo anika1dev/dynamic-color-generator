@@ -19,3 +19,4 @@ Click the button to generate random background and button colors dynamically in 
 
 ## Live Demo
 
+https://dynamic-color-generator-ui.netlify.app/
